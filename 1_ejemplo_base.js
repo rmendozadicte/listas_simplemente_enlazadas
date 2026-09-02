@@ -15,7 +15,8 @@ class ListaEnlazada{
     // Método para agregar un elemento (Nodo) al final
     agregar(data){
         const nuevoNodo = new Nodo(data)
-
+        console.log("nuevo cambio para github");
+        
         // Si la lista está vacía, el nuevo nodo es la cabeza (head)
         if(this.head == null){
             this.head = nuevoNodo;
